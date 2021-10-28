@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MICROBIOLOGIA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body style="background-color: #ffffff;">
+        <div class="header">
+            <p class="header-text">Microbiologia</p>
+        </div>
+        <div class="navbar">
+            <a href="index.html" class="header-links">INICIO</a>
+            <a href="integrantes.html" class="header-links">INTEGRANTES</a>
+            <a href="referencias.html" class="header-links">REFERENCIAS</a>
+        </div>
+        <div class="main-image">
+            <img class="index-img" src="img/microbiologia.jpg" alt="mainImg">
+            <div class="main-text">
+                <h1>INTEGRANTES</h1>
+            </div>
+        </div>
+        <div class="integrcontent">
+            <div class="row" style="width: 100%;">
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>Andrea Lucia López Aguas</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>Angie Katherine López Malagon</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>Ángela Natalia Martínez Gonzales</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>María Alejandra Olivera Ramírez</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>Jaider Andrés Rincón Miranda</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>María Fernanda Rivas Trujillo</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>Laura Valentina Rodriguez Forigua</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>Daniela Alexandra Romero Villanueva</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 intcol">
+                    <div class="integrantecont">
+                        <div class="intdescri">
+                            <h1>María Fernanda Serrada Santos</h1>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-content">
+                <h2>HECHO POR ESTUDIANTES DE QUINTO SEMESTRE</h2>
+                <h3>Fundación Universitaria Juan N. Corpas</h3>
+                <h4>Bogotá, Colombia.</h4>
+                <h4>Derechos reservados</h4>
+            </div>
+        </div>
+    </body>
+    <script>
+        var coll = document.getElementsByClassName("mostrar");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.height === "auto") {
+              content.style.height = "0";
+            } else {
+              content.style.height = "auto";
+            }
+          });
+        }
+    </script>
+</html>

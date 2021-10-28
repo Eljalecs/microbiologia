@@ -1,0 +1,344 @@
+body{
+    margin: auto;
+    background-color: #f2f8ff;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1366px;
+}
+.header{
+    background-color: #181a19;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 5px;
+
+}
+.header-text{
+    font-size: 15px;
+    font-family: monospace;
+}
+.navbar{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    border-bottom: 1px solid #c2c2c2;
+    
+}
+.header-links{
+    color: #181a19;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.header-links:hover{
+    color: #08c221;
+}
+.index-img{
+    width: 100%;
+}
+.main-image{
+    position: relative;
+}
+.main-text{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 1px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+.mid-h1-box{
+    text-align: center;
+    padding: 0 100px;
+}
+.mid-h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2b2b2b;
+}
+.mid-h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #545353;
+    font-weight: 500;
+}
+.options-box{
+    text-align: center;
+    overflow: hidden;
+    padding: 0 100px;
+}
+.site{
+    width: 25%;
+    float: left;
+}
+.site-content{
+    position: relative;
+}
+.site-content img{
+    width: 100%;
+}
+.site-box{
+    padding: 50px 30px;
+}
+.site-border-box{
+    background-color: white;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.3);
+}
+.vervideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.vervideo a{
+    background-color: #473492;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+.option1-desc{
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(46, 49, 146, 0.6);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.site-content:hover .option1-desc{
+    height: 100%;
+}
+.site-content img{
+    width: 100%;
+}
+.option1-p{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.things{
+    text-align: left;
+    padding: 0px 20px;
+}
+.things p{
+    color: #636363;
+}
+.things h3{
+    color: #2e3696;
+    font-weight: 700;
+}
+.things h3:hover{
+    color: #11b3f1;
+}
+.btnver a{
+    background-color: #11b3f1;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.btnver a:hover{
+    background-color: white;
+    color: #2e3696;
+    cursor: pointer;
+}
+/*  about styles */
+.content-box{
+    overflow: hidden;
+}
+.content-descri{
+    padding: 100px 200px;
+}
+.shadowbox{
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 550px;
+    
+}
+
+.shenandoah{
+    float: left;
+    width: 30%;
+}
+.shenandoah img{
+    width: 100%;
+    
+}
+.shenandoah-text{
+    float: left;
+    width: 70%;
+    
+}
+.park-box{
+    padding: 50px;
+}
+.park-title{
+    font-weight: 600;
+    font-size: 50px;
+}
+.park-box p{
+    font-size: 20px;
+}
+.list{
+    font-size: 20px;
+}
+.footer{
+    background-image: url("img/Microorganismosfooteer.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.footer-content{
+    text-align: center;
+    color: white;
+    
+}
+
+/*----------ricketesia------------*/
+.descri-content{
+    text-align: center;
+    padding: 100px 150px;
+}
+
+.textbox{
+    padding: 0px 50px;
+
+}
+.textbox hr{
+    width: 50px;
+    border: 2px solid #11b3f1;
+    
+}
+.textbox h2{
+ color: #2e3696;
+ font-weight: 700;
+ font-size: 40px;
+
+}
+.pregindi{
+    text-align: left;
+}
+.textbox p{
+    line-height: 125%;
+    color: #636363;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.numero{
+    background-color:#ebebeb ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.pregcont h4{
+    color: black;
+    font-weight: 700;
+    line-height: 150%;
+}
+.mostrar{
+    background-color:#11b3f1 ;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.active{
+    background-color:white ;
+    color: #11b3f1;
+}
+.respuesta{
+    text-align: left;
+    padding-left: 70px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.subtittle{
+    font-weight: 700;
+    color: black;
+}
+
+/*ref*/
+.referencias{
+    padding: 100px;
+}
+.olref li{
+    padding: 20px;
+}
+/*integrantes*/
+.integrcontent{
+    padding: 100px;
+}
+.intcol{
+    padding: 10px;
+}
+.integrantecont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color:#40d6ff ;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+    
+}
+.intdescri h1{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.vacio{
+    color: transparent;
+}
+@media only screen and(max-width:1350px){
+    .vacio{
+        color: red;
+    }
+}
+  /*creating the shake animation*/
+    
+  .intdescri:hover h1{
+    animation:  shake 0.8s  ;
+  }
+@keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(25px);
+    }
+      
+    50%{
+      transform: translateX(-25px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+.integrantecont{
+    background-color: #40d6ff;
+}
+
+
+/*aviso*/
+.aviso{
+    padding: 0 200px;
+}
+.avisocont{
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 50px;
+
+}
+.avisocont h3{
+    color: red;
+    font-weight: 600;
+}
+/* gray color color: #636363;  purple #2e3696; lightblue  #11b3f1 */
